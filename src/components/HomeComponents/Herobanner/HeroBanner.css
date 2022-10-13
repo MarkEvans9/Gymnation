@@ -20,7 +20,12 @@
   margin-bottom: 20px;
 }
 .BannerCon p {
+  display: block;
   margin: 10px 0;
+  background-color: #fffabf;
+  font-size: normal;
+  font-weight: normal;
+  padding: 0;
 }
 .BannerCon button {
   background-color: #ff2625;

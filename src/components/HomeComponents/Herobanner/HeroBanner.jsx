@@ -9,7 +9,7 @@ const HeroBanner = () => {
       <h2>
         Sweat, Smile <br /> And Repeat
       </h2>
-      <p>Chechout our most effective exercises</p>
+      <p>Checkout our most effective exercises</p>
       <button
         onClick={() =>
           window.scrollTo({
