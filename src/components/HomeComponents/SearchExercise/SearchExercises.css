@@ -1,0 +1,111 @@
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 37px;
+
+  /* background-color: aquamarine; */
+}
+
+.searchContainer h2 {
+  /* color: var(--secondary-clr); */
+  font-weight: 700;
+  font-size: 44px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.inputField {
+  position: relative;
+  margin-bottom: 72px;
+}
+
+.inputField input {
+  height: 52px;
+  outline: none;
+  font-size: 1.3rem;
+  padding-left: 10px;
+  border: none;
+  border-radius: 7px;
+  width: 800px;
+}
+
+.inputField button {
+  position: absolute;
+  right: 0;
+  height: 52px;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  padding: 8px 25px;
+  background-color: var(--secondary-clr);
+  cursor: pointer;
+  transition: 300ms ease;
+}
+
+.inputField button:hover {
+  background-color: #fff;
+  color: var(--secondary-clr);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  transform: scaleX(1.1);
+  /* font-size:22px ; */
+}
+
+.bodypartContainer {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+}
+
+@media screen and (max-width: 880px) {
+  .searchContainer {
+    margin-top: 20px;
+  }
+
+  .inputField input {
+    height: 45px;
+    font-size: 1.3rem;
+
+    width: 550px;
+  }
+  .inputField button {
+    height: 45px;
+
+    font-size: 20px;
+
+    padding: 8px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .searchContainer {
+    margin-top: 15px;
+  }
+
+  .searchContainer h2 {
+    font-size: 30px;
+  }
+
+  .inputField input {
+    font-size: 1.3rem;
+
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .searchContainer h2 {
+    font-size: 25px;
+  }
+
+  .inputField input {
+    font-size: 1rem;
+    height: 40px;
+    width: 300px;
+  }
+
+  .inputField button {
+    height: 40px;
+
+    font-size: 15px;
+  }
+}

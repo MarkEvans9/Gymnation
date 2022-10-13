@@ -1,0 +1,26 @@
+.footer {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 20px 0;
+  gap: 30px;
+}
+
+.footer img {
+  width: 98px;
+  height: 68px;
+  margin: 0 10px;
+  margin-top: 5px;
+  /* background-color: rgba(89, 184, 26, 0.568); */
+}
+
+.footer h4 {
+  font-size: 15px;
+  padding-top: 25px;
+}
+.footer span {
+  font-size: 17px;
+  color: var(--secondary-clr);
+}

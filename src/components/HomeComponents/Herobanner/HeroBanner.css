@@ -1,0 +1,120 @@
+.BannerCon {
+  position: relative;
+  margin: 6rem;
+  width: 100vw;
+  overflow: visible;
+  padding: 20px;
+  height: 90vh;
+  /* background-color: rgba(168, 67, 67, 0.712); */
+}
+
+.BannerCon h4 {
+  color: #ff2625;
+  margin-bottom: 2rem;
+}
+.BannerCon h2 {
+  /* margin-left: 6rem; */
+  line-height: 2.5rem;
+  font-size: 35px;
+  word-spacing: 10px;
+  margin-bottom: 20px;
+}
+.BannerCon p {
+  margin: 10px 0;
+}
+.BannerCon button {
+  background-color: #ff2625;
+  border: none;
+  color: #fff;
+  margin-top: 20px;
+  border-radius: 4px;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+.BannerCon button:hover {
+  transform: scale(1.05);
+}
+
+.BannerCon h1 {
+  /* background-color: rgba(16, 143, 58, 0.555); */
+  opacity: 0.4;
+  color: #ff2625;
+  font-size: 160px;
+  margin: 0px;
+}
+.BannerCon img {
+  position: absolute;
+  /* inset: 0 0 20px 50px; */
+  top: -178px;
+  right: 100px;
+  width: 700px;
+  height: 580px;
+  border-radius: 0 0 0 100px;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.685);
+}
+
+/* ==========Media Queries===================== */
+
+@media screen and (max-width: 1160px) {
+  .BannerCon img {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 1010px) {
+  .BannerCon img {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .BannerCon {
+    margin: 6rem 3rem;
+  }
+
+  .BannerCon img {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .BannerCon img {
+    display: none;
+  }
+  .BannerCon h1 {
+    /* font-size: 140px; */
+    font-size: 100px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .BannerCon {
+    margin: 6rem 1rem;
+  }
+  .BannerCon button {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .BannerCon h1 {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .BannerCon {
+    margin: 6rem 0rem;
+  }
+  .BannerCon h1 {
+    font-size: 60px;
+  }
+}
+@media screen and(max-width:400px) {
+  .BannerCon {
+    margin: 6rem 0rem;
+  }
+}
+@media screen and(max-width:375px) {
+  .BannerCon h1 {
+    font-size: 40px;
+  }
+}

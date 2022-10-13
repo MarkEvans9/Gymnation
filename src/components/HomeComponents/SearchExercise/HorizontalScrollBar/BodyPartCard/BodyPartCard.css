@@ -1,0 +1,41 @@
+.bodypartCard {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  margin: 10px 10px;
+  width: 180px;
+  height: 190px;
+  flex-direction: column;
+  transition: all 300ms ease;
+}
+
+.bodypartCard:hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+
+.bodypartCard img {
+  width: 90px;
+  height: 90px;
+}
+
+.bodypartCard h4 {
+  margin-top: 12px;
+  font-size: 24px;
+  font-weight: bold;
+
+  color: #3a1212;
+  text-transform: capitalize;
+}
+
+/* .bodypartCard h4:hover {
+  text-decoration: underline;
+} */
+
+@media screen and (max-width: 500px) {
+  .bodypartCard {
+    margin: 10px 3px;
+  }
+}

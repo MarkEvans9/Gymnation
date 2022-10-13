@@ -1,0 +1,83 @@
+.exerciseContainer {
+  margin-top: 50px;
+  padding: 20px;
+}
+.exerciseContainer h3 {
+  text-decoration: underline;
+  font-size: 30px;
+  margin-bottom: 46px;
+}
+
+.exercisesList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 110px;
+}
+
+.exerciseCardContainer {
+  background-color: rgb(255, 255, 255);
+  border-top: 2px solid var(--secondary-clr);
+  border-bottom: 2px solid var(--secondary-clr);
+  transition: 200ms ease;
+}
+
+.exerciseCardContainer:hover {
+  transform: scale(1.04);
+}
+.exerciseinfo {
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  text-decoration: none;
+}
+
+.exerciseinfo button {
+  cursor: pointer;
+  margin-left: 21px;
+  padding: 7px;
+  color: #fff;
+  background-color: #ffa9a9;
+  font-size: 14px;
+  border: none;
+  border-radius: 20px;
+  text-transform: capitalize;
+  transition: all 300ms ease;
+  margin-bottom: 5px;
+}
+
+.exerciseinfo button:hover {
+  color: var(--secondary-clr);
+  font-size: 15px;
+}
+p {
+  padding-left: 20px;
+  color: black;
+  font-weight: medium;
+  margin: 10px 0;
+
+  font-size: 20px;
+  text-transform: capitalize;
+  /* text-decoration: none; */
+}
+img {
+  width: 300px;
+  height: 250px;
+}
+.pagination {
+  margin-top: 100px;
+  /* background-color: rgba(158, 34, 34, 0.39); */
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+@media screen and(max-width:500px) {
+  .exercisesList {
+    gap: 50px;
+  }
+}
