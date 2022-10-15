@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/gymnation/static/css/main.4ae13f15.css",
+    "main.js": "/gymnation/static/js/main.b5d31af5.js",
+    "static/media/Banner4.jpg": "/gymnation/static/media/Banner4.303f311ff7ab952b3229.jpg",
+    "static/media/cardslogo.png": "/gymnation/static/media/cardslogo.743819f5def3dd7c7d34.png",
+    "static/media/infoicon1.png": "/gymnation/static/media/infoicon1.bfc24c7cca6f39cdb977.png",
+    "static/media/yogaIcon.png": "/gymnation/static/media/yogaIcon.660b1ee32b107c3748d0.png",
+    "static/media/logo.png": "/gymnation/static/media/logo.f0dde06667347b9f82ee.png",
+    "index.html": "/gymnation/index.html",
+    "main.4ae13f15.css.map": "/gymnation/static/css/main.4ae13f15.css.map",
+    "main.b5d31af5.js.map": "/gymnation/static/js/main.b5d31af5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ae13f15.css",
+    "static/js/main.b5d31af5.js"
+  ]
+}
