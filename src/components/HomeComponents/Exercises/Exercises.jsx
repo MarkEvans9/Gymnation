@@ -25,7 +25,8 @@ const Exercises = ({ setExercises, bodyPart, exercises }) => {
         );
       else {
         exerciseData = await fetchData(
-          `https://exercisedb.p.rapidapi.com/exercises/bodyPart/${bodyPart}`,options
+          `https://exercisedb.p.rapidapi.com/exercises/bodyPart/${bodyPart}`,
+          options
         );
       }
       setExercises(exerciseData);
@@ -63,8 +64,6 @@ const Exercises = ({ setExercises, bodyPart, exercises }) => {
             count={Math.ceil(exercises.length / 9)}
             page={currentPage}
             onChange={paginate}
-            showFirstButton
-            showLastButton
           />
         )}
       </div>

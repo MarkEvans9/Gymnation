@@ -3,16 +3,27 @@ p {
   display: flex;
   align-items: center;
   font-weight: bold;
+  /* height: 50px; */
+  align-items: center;
   justify-content: center;
+  /* justify-content: center; */
+  /* justify-content: flex-start; */
   font-size: 18px;
   background-color: #fff;
 
-  margin: 0;
-  padding: 0;
+  /* margin: 0; */
+  /* padding: 0; */
+  /* padding-left: 5px; */
+}
+.bodyPartCardContainer {
+  margin: 0 20px;
 }
 
 @media screen and( max-width :500) {
   p {
-    font-size: 12px;
+    font-size: 10px;
+  }
+  .bodyPartCardContainer {
+    margin: 0 2px;
   }
 }

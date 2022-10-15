@@ -80,4 +80,9 @@ img {
   .exercisesList {
     gap: 50px;
   }
+
+  img {
+    width: 200px;
+    height: 220px;
+  }
 }
